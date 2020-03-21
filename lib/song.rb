@@ -9,5 +9,5 @@ class Song
     @@count
   end
   def genres
-    @@genres 
+    @@genres.uniq  
   end
